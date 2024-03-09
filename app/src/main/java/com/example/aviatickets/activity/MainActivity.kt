@@ -18,6 +18,5 @@ class MainActivity : AppCompatActivity() {
             .beginTransaction()
             .add(R.id.fragment_container_view, OfferListFragment.newInstance())
             .commit()
-
     }
 }
